@@ -44,7 +44,7 @@ Library	Command	Purpose
 Library	Command	Purpose
  - React.js	-> create-react-app ->	Core frontend framework
  - Axios ->	npm install axios ->	For making API requests
- - React -> Router	npm install react-router-dom	-> For navigation between pages
+ - React Router	-> npm install react-router-dom	-> For navigation between pages
 ## Move to frontend directory
     cd user-registration-frontend
 
