@@ -48,9 +48,6 @@ Library	Command	Purpose
 ## Move to frontend directory
     cd user-registration-frontend
 
-## Install dependencies
-  npm install
-
 ## Start the frontend application
   - npm start
   - App will run at http://localhost:3000
