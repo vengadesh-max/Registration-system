@@ -19,10 +19,18 @@
 ## Clone the project
  - git clone [https://github.com/your-username/your-repo](https://github.com/vengadesh-max/Registration-system.git).
 ## 2️⃣ Backend Setup
+#### Backend Dependencies
+Library	Command	Purpose
+ - Express.js ->	npm install express->	Backend framework
+ - Mongoose	-> npm install mongoose ->	MongoDB ORM for database management
+ - dotenv	-> npm install dotenv	-> Loads environment variables from .env file
+ - CORS	-> npm install cors	-> Enables Cross-Origin Resource Sharing (CORS)
+ - Body-parser ->	npm install body-parser	-> Parses incoming request bodies
+ - Nodemon (Dev) ->	npm install --save-dev nodemon ->	Automatically restarts the server on file changes
 ## Move to backend directory 
       cd user-registration-backend
 
-## Install dependencies
+## Setup Database (.env)
 
    - Create  - .env file (Create & Add MongoDB connection string)
    - Enter your - MONGO_URI=your-mongodb-connection-string
@@ -32,6 +40,11 @@
   - Server will run at http://localhost:5000
 
 ## 3️⃣ Frontend Setup
+#### Frontend Dependencies
+Library	Command	Purpose
+ - React.js	-> create-react-app ->	Core frontend framework
+ - Axios ->	npm install axios ->	For making API requests
+ - React -> Router	npm install react-router-dom	-> For navigation between pages
 ## Move to frontend directory
     cd user-registration-frontend
 
