@@ -1,0 +1,167 @@
+.container {
+  max-width: 2000px; /* 🔹 Increased width */
+  margin: auto;
+  padding: 40px;
+  background: #f8f8f8;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0);
+}
+
+/* 🔹 Center "User Registration" Title Only */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* 🔹 Left Align Labels & Subtitles */
+.form label,
+p,
+.user-section h2 {
+  text-align: left;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* 🔹 Reduce gap between About field & character counter */
+.about-container {
+  margin-bottom: 2px; /* Reduced spacing */
+}
+
+/* 🔹 Form Inputs */
+input, select, textarea {
+  padding: 12px;
+  margin-bottom: 6px; /* Reduced margin */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 18px;
+  width: 100%;
+}
+
+/* 🔹 Password Field with Show/Hide Button */
+.password-container {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Reduced gap */
+  width: 100%;
+  max-width: 500px;
+}
+
+.password-container input {
+  flex-grow: 1;
+  height: 45px; /* Same height */
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.toggle-password {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px; /* 🔹 Smaller size */
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 6px;
+  height: 45px; /* Matches input height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+}
+
+.toggle-password:hover {
+  background: #0056b3;
+}
+
+.register-btn {
+  width: 85%; /* Increased width */
+  padding: 15px; /* Increased padding for a bigger button */
+  background: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Slightly bigger rounded corners */
+  font-size: 24px; /* Increased font size */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.register-btn:hover {
+  background: #0056b3; /* Darker blue on hover */
+  transform: scale(1.08); /* Slight increase in size on hover */
+}
+
+/* 🔹 Search Bar */
+.search-input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+  background: #f8f8f8;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  background: #fff;
+}
+
+/* 🔹 Improve User List Styling */
+.user-section {
+  margin-top: 20px;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* 🔹 Each User Item */
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 🔹 Buttons */
+.user-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.edit-btn {
+  background: #ffc107;
+  color: black;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.edit-btn:hover {
+  background: #e0a800;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
