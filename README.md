@@ -76,7 +76,7 @@ Library	Command	Purpose
 🔹 Add JWT Authentication
 🔹 Deploy using Vercel (Frontend) & Render (Backend)
 ## 📹 Live Project Walkthrough
-[[https://youtu.be/eNDIlcZbdws](https://www.youtube.com/watch?v=AOrDoOj4IXA)]
+[([https://www.youtube.com/watch?v=AOrDoOj4IXA](https://youtu.be/sS-fz1x0gsM))]
 
 ## 📜 License
  - MIT License
