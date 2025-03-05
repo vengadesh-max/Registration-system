@@ -17,7 +17,7 @@
 📌 Installation & Setup
 1️⃣ Clone the Repository
 ## Clone the project
- - git clone [https://github.com/your-username/your-repo](https://github.com/vengadesh-max/Registration-system.git).
+ - git clone ([https://github.com/vengadesh-max/Registration-system.git](https://github.com/vengadesh-max/Registration-system.git)).
 ## 2️⃣ Backend Setup
 #### Backend Dependencies
 Library	Command	Purpose
