@@ -74,8 +74,6 @@ Library	Command	Purpose
  - 500	Internal Server Error (Unexpected issue)
 📌 Future Enhancements
 🔹 Add JWT Authentication
-## 📹 Live Project Walkthrough
-[([https://www.youtube.com/watch?v=AOrDoOj4IXA](https://youtu.be/sS-fz1x0gsM))]
 
 ## 📜 License
  - MIT License
